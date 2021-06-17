@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+body{
+	background-color: #ffffff;
+}
+.navbar{
+	background-color:#ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+.navbar-brad img {
+	width: 130px
+
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+
+}
+.nav-item a:hover{
+ background-color: #ffffff;
+}
+
+.nav-item2 {
+	margin-left: 100px;
+	padding: 0;
+	font-size: 10px;
+	margin-top: 10px;
+	
+}
+.nav-item3{
+	text-align: left;
+
+}
+.nav-link {
+
+	color: #7a7d82;
+	font-size: 1.1em ;
+	border-bottom: 2px solid #7a7d82;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid #242729;
+}
+.button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+.steamicon{
+
+
+}
+.collapse {
+
+}
+
+.line { 
+    border-right: 1px solid #ccc; /* Параметры линии */ 
+    padding-right: 40px; /* Расстояние от линии до текста */ 
+   }
+
+.nav-link2 {
+
+} 
+
+.text-glow {/*Definig font could be useful!*/
+   font-size:2em;
+   color: #FFFFFF;
+   font-family:Arial;
+   text-align: left;
+   margin-left: 120px;
+   }
+.text-glow:hover {
+text-shadow: 1px 0px 20px #FFFFFF;
+-webkit-transition: 1s linear 0s;
+-moz-transition: 1s linear 0s;
+-o-transition: 1s linear 0s;
+transition: 1s linear 0s;
+outline: 0 none;
+   }
+
+.portfolio ul,.portfolio li {
+	margin: 0;
+	margin-left: 60px;
+	padding: 20px;
+	list-style-type: none;
+}
+.portfolio li{
+	display: inline-block;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.portfolio img{
+	width: 350px;
+	display: block;
+}
+.descr {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5)
+	color: white;
+	padding-top: 80px;
+	text-align: center;
+	opacity: 0;
+
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.portfolio li:hover .descr {
+	opacity: 1;
+}
+.body-text{
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 19px;
+	font-family: 'Arial';
+}
+.New{ 
+	padding: 0px;
+	margin-top: 40px;
+	color: black;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 1.5em;
+	font-weight:600;
+
+ }
+ .Newhr{
+
+	border: none;
+	height: 1px;
+	background: #e0e7eb;
+ }
+ .NewhrNav{
+ 	padding: 0;
+ 	margin: 0;
+	border: none;
+	height: 1px;
+	background: #7a768c;
+ }
+ 
+
+ .final {
+ 	margin-left: 150px;
+ 	text-align: left;
+ 	color: #7a768c; 
+
+ }
+
+ .container-3{
+ 	display: flex;
+ 	flex-direction: row;
+ 	
+ 	width: 70%;
+ 	margin-left: 160px;
+ 	color: #7a768c;
+ }
+ footer{
+ 	width: 100%;
+ 	height: 275px;
+ 	background-color: #242729; 
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	padding-top: 25px;
+ }
+footer a{
+	color: #7a768c;
+	font-size: 19px;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	color:white;
+}
+.social img{
+
+	height: 50px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
+footer hr{
+	margin-top: 20px;
+}
+
+footer p{
+	margin-top: 30px;
+	color: #7a768c;
+	font-size: 14px;
+}
+div{
+	border-radius: 5px;
+}
+.div-style{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 100%;
+}
+.div-style2{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 100%;
+	background-color: #f9f9f9;
+}
+.div-style3{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+	
+}
+.div-style4{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 50%;
+	margin-left: 25%;
+	margin-right:25%;
+	height: 400px;
+
+}
+
+.vakansii-img{
+	width: 100%;
+}
+.container-1{
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ .container-1 div{
+ 	padding: 10px;
+ 	border: none;
+ }
+ .container-text{
+ 	text-align: left;
+ 	margin-left: 55px;
+ 	margin-right: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+ }
+ .conteiner-img{
+ 	width: 550px;
+ 	height: 330px;
+ 	margin-left: 100px;
+ 	margin-right: 75px;
+ 	margin-bottom: 20px;
+ }
+ .conteiner-button{
+ 	border: 0.3px solid #c8d1d6;
+ 	background-color: white;
+ 	margin-left: 550px;
+ 	margin-top: 10px;
+ 	margin-bottom: 30px;
+ }
+ .job-button{
+ 	border: 0.1px solid #c8d1d6;
+ 	background-color: white;
+ 	border-radius: 5px;
+
+ }
+ .text-main{
+ 	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	 }
